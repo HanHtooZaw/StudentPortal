@@ -7,15 +7,53 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		14389BE71C6665FB00B50F59 /* SPNoticeDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 14389BE61C6665FB00B50F59 /* SPNoticeDetailViewController.m */; };
+		14493BBF1C112F5B002AB19E /* SPScheduleTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 14493BBE1C112F5B002AB19E /* SPScheduleTableViewController.m */; };
+		14493BC51C12E315002AB19E /* SPScheduleTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 14493BC41C12E315002AB19E /* SPScheduleTableViewCell.m */; };
+		14493C1C1C34DCA0002AB19E /* SPDocumentOptionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 14493C1B1C34DCA0002AB19E /* SPDocumentOptionViewController.m */; };
+		145DC1321C568EB100CE2B21 /* SPNoticeboardTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 145DC1311C568EB100CE2B21 /* SPNoticeboardTableViewController.m */; };
+		145DC1351C5698F000CE2B21 /* SPNoticeboardTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 145DC1341C5698F000CE2B21 /* SPNoticeboardTableViewCell.m */; };
+		145DC1381C57D71000CE2B21 /* SPProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 145DC1371C57D71000CE2B21 /* SPProfileViewController.m */; };
+		148582EF1C3AF3410056C1F2 /* SPDocumentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 148582EE1C3AF3410056C1F2 /* SPDocumentViewController.m */; };
 		14AD9C251C0D31F300D175B8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 14AD9C241C0D31F300D175B8 /* main.m */; };
 		14AD9C281C0D31F300D175B8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 14AD9C271C0D31F300D175B8 /* AppDelegate.m */; };
 		14AD9C2B1C0D31F300D175B8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 14AD9C2A1C0D31F300D175B8 /* ViewController.m */; };
 		14AD9C2E1C0D31F300D175B8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14AD9C2C1C0D31F300D175B8 /* Main.storyboard */; };
 		14AD9C301C0D31F300D175B8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14AD9C2F1C0D31F300D175B8 /* Assets.xcassets */; };
 		14AD9C331C0D31F300D175B8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14AD9C311C0D31F300D175B8 /* LaunchScreen.storyboard */; };
+		14AD9C3D1C0D325300D175B8 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14AD9C3B1C0D325300D175B8 /* Bolts.framework */; };
+		14AD9C3E1C0D325300D175B8 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14AD9C3C1C0D325300D175B8 /* Parse.framework */; };
+		14AD9C401C0D327A00D175B8 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14AD9C3F1C0D327A00D175B8 /* SystemConfiguration.framework */; };
+		14AD9C421C0D328300D175B8 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14AD9C411C0D328300D175B8 /* StoreKit.framework */; };
+		14AD9C441C0D328B00D175B8 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14AD9C431C0D328B00D175B8 /* Security.framework */; };
+		14AD9C461C0D329400D175B8 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14AD9C451C0D329400D175B8 /* QuartzCore.framework */; };
+		14AD9C481C0D329E00D175B8 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14AD9C471C0D329E00D175B8 /* CoreLocation.framework */; };
+		14AD9C4A1C0D32A500D175B8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14AD9C491C0D32A500D175B8 /* CoreGraphics.framework */; };
+		14AD9C4C1C0D32AB00D175B8 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14AD9C4B1C0D32AB00D175B8 /* CFNetwork.framework */; };
+		14AD9C4E1C0D32B100D175B8 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14AD9C4D1C0D32B100D175B8 /* AudioToolbox.framework */; };
+		14AD9C501C0D32BC00D175B8 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 14AD9C4F1C0D32BC00D175B8 /* libz.tbd */; };
+		14AD9C521C0D32C400D175B8 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 14AD9C511C0D32C400D175B8 /* libsqlite3.tbd */; };
+		14AD9C551C0D471400D175B8 /* SPApiClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 14AD9C541C0D471400D175B8 /* SPApiClient.m */; };
+		5570927AC5C02C82C9D57167 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 850EB069D9B0C04682EC66F3 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		14389BE51C6665FB00B50F59 /* SPNoticeDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPNoticeDetailViewController.h; sourceTree = "<group>"; };
+		14389BE61C6665FB00B50F59 /* SPNoticeDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPNoticeDetailViewController.m; sourceTree = "<group>"; };
+		14493BBD1C112F5B002AB19E /* SPScheduleTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPScheduleTableViewController.h; sourceTree = "<group>"; };
+		14493BBE1C112F5B002AB19E /* SPScheduleTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPScheduleTableViewController.m; sourceTree = "<group>"; };
+		14493BC31C12E315002AB19E /* SPScheduleTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPScheduleTableViewCell.h; sourceTree = "<group>"; };
+		14493BC41C12E315002AB19E /* SPScheduleTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPScheduleTableViewCell.m; sourceTree = "<group>"; };
+		14493C1A1C34DCA0002AB19E /* SPDocumentOptionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPDocumentOptionViewController.h; sourceTree = "<group>"; };
+		14493C1B1C34DCA0002AB19E /* SPDocumentOptionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPDocumentOptionViewController.m; sourceTree = "<group>"; };
+		145DC1301C568EB100CE2B21 /* SPNoticeboardTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPNoticeboardTableViewController.h; sourceTree = "<group>"; };
+		145DC1311C568EB100CE2B21 /* SPNoticeboardTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPNoticeboardTableViewController.m; sourceTree = "<group>"; };
+		145DC1331C5698F000CE2B21 /* SPNoticeboardTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPNoticeboardTableViewCell.h; sourceTree = "<group>"; };
+		145DC1341C5698F000CE2B21 /* SPNoticeboardTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPNoticeboardTableViewCell.m; sourceTree = "<group>"; };
+		145DC1361C57D71000CE2B21 /* SPProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPProfileViewController.h; sourceTree = "<group>"; };
+		145DC1371C57D71000CE2B21 /* SPProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPProfileViewController.m; sourceTree = "<group>"; };
+		148582ED1C3AF3410056C1F2 /* SPDocumentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPDocumentViewController.h; sourceTree = "<group>"; };
+		148582EE1C3AF3410056C1F2 /* SPDocumentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPDocumentViewController.m; sourceTree = "<group>"; };
 		14AD9C201C0D31F300D175B8 /* Student Portal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Student Portal.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		14AD9C241C0D31F300D175B8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		14AD9C261C0D31F300D175B8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -26,6 +64,23 @@
 		14AD9C2F1C0D31F300D175B8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		14AD9C321C0D31F300D175B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		14AD9C341C0D31F300D175B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		14AD9C3B1C0D325300D175B8 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		14AD9C3C1C0D325300D175B8 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		14AD9C3F1C0D327A00D175B8 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		14AD9C411C0D328300D175B8 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		14AD9C431C0D328B00D175B8 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		14AD9C451C0D329400D175B8 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		14AD9C471C0D329E00D175B8 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		14AD9C491C0D32A500D175B8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		14AD9C4B1C0D32AB00D175B8 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		14AD9C4D1C0D32B100D175B8 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		14AD9C4F1C0D32BC00D175B8 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		14AD9C511C0D32C400D175B8 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		14AD9C531C0D471400D175B8 /* SPApiClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPApiClient.h; sourceTree = "<group>"; };
+		14AD9C541C0D471400D175B8 /* SPApiClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPApiClient.m; sourceTree = "<group>"; };
+		40C9A25FD059D7421A0E2FD0 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		815E6C70EC2F8588B976409A /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		850EB069D9B0C04682EC66F3 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +88,117 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				14AD9C521C0D32C400D175B8 /* libsqlite3.tbd in Frameworks */,
+				14AD9C501C0D32BC00D175B8 /* libz.tbd in Frameworks */,
+				14AD9C4E1C0D32B100D175B8 /* AudioToolbox.framework in Frameworks */,
+				14AD9C4C1C0D32AB00D175B8 /* CFNetwork.framework in Frameworks */,
+				14AD9C4A1C0D32A500D175B8 /* CoreGraphics.framework in Frameworks */,
+				14AD9C481C0D329E00D175B8 /* CoreLocation.framework in Frameworks */,
+				14AD9C461C0D329400D175B8 /* QuartzCore.framework in Frameworks */,
+				14AD9C441C0D328B00D175B8 /* Security.framework in Frameworks */,
+				14AD9C421C0D328300D175B8 /* StoreKit.framework in Frameworks */,
+				14AD9C401C0D327A00D175B8 /* SystemConfiguration.framework in Frameworks */,
+				14AD9C3E1C0D325300D175B8 /* Parse.framework in Frameworks */,
+				14AD9C3D1C0D325300D175B8 /* Bolts.framework in Frameworks */,
+				5570927AC5C02C82C9D57167 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		145DC1391C58704A00CE2B21 /* Noticeboard */ = {
+			isa = PBXGroup;
+			children = (
+				145DC1301C568EB100CE2B21 /* SPNoticeboardTableViewController.h */,
+				145DC1311C568EB100CE2B21 /* SPNoticeboardTableViewController.m */,
+				145DC1331C5698F000CE2B21 /* SPNoticeboardTableViewCell.h */,
+				145DC1341C5698F000CE2B21 /* SPNoticeboardTableViewCell.m */,
+				14389BE51C6665FB00B50F59 /* SPNoticeDetailViewController.h */,
+				14389BE61C6665FB00B50F59 /* SPNoticeDetailViewController.m */,
+			);
+			name = Noticeboard;
+			sourceTree = "<group>";
+		};
+		145DC13A1C58705200CE2B21 /* Schedule */ = {
+			isa = PBXGroup;
+			children = (
+				14493BBD1C112F5B002AB19E /* SPScheduleTableViewController.h */,
+				14493BBE1C112F5B002AB19E /* SPScheduleTableViewController.m */,
+				14493BC31C12E315002AB19E /* SPScheduleTableViewCell.h */,
+				14493BC41C12E315002AB19E /* SPScheduleTableViewCell.m */,
+			);
+			name = Schedule;
+			sourceTree = "<group>";
+		};
+		145DC13B1C58705900CE2B21 /* Subjects */ = {
+			isa = PBXGroup;
+			children = (
+				14493C1A1C34DCA0002AB19E /* SPDocumentOptionViewController.h */,
+				14493C1B1C34DCA0002AB19E /* SPDocumentOptionViewController.m */,
+				148582ED1C3AF3410056C1F2 /* SPDocumentViewController.h */,
+				148582EE1C3AF3410056C1F2 /* SPDocumentViewController.m */,
+			);
+			name = Subjects;
+			sourceTree = "<group>";
+		};
+		145DC13C1C58706100CE2B21 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				145DC1361C57D71000CE2B21 /* SPProfileViewController.h */,
+				145DC1371C57D71000CE2B21 /* SPProfileViewController.m */,
+			);
+			name = Profile;
+			sourceTree = "<group>";
+		};
+		145DC13D1C58707B00CE2B21 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				14AD9C531C0D471400D175B8 /* SPApiClient.h */,
+				14AD9C541C0D471400D175B8 /* SPApiClient.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		145DC13E1C58708300CE2B21 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				145DC13F1C58717800CE2B21 /* Login */,
+				145DC13C1C58706100CE2B21 /* Profile */,
+				145DC13B1C58705900CE2B21 /* Subjects */,
+				145DC13A1C58705200CE2B21 /* Schedule */,
+				145DC1391C58704A00CE2B21 /* Noticeboard */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		145DC13F1C58717800CE2B21 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				14AD9C291C0D31F300D175B8 /* ViewController.h */,
+				14AD9C2A1C0D31F300D175B8 /* ViewController.m */,
+			);
+			name = Login;
+			sourceTree = "<group>";
+		};
+		145DC1401C5871E900CE2B21 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				14AD9C2C1C0D31F300D175B8 /* Main.storyboard */,
+				14AD9C2F1C0D31F300D175B8 /* Assets.xcassets */,
+				14AD9C311C0D31F300D175B8 /* LaunchScreen.storyboard */,
+				14AD9C341C0D31F300D175B8 /* Info.plist */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
 		14AD9C171C0D31F300D175B8 = {
 			isa = PBXGroup;
 			children = (
+				14AD9C3A1C0D324900D175B8 /* Frameworks */,
 				14AD9C221C0D31F300D175B8 /* Student Portal */,
 				14AD9C211C0D31F300D175B8 /* Products */,
+				E9FDC584C56314C7DF2670B4 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,14 +213,9 @@
 		14AD9C221C0D31F300D175B8 /* Student Portal */ = {
 			isa = PBXGroup;
 			children = (
-				14AD9C261C0D31F300D175B8 /* AppDelegate.h */,
-				14AD9C271C0D31F300D175B8 /* AppDelegate.m */,
-				14AD9C291C0D31F300D175B8 /* ViewController.h */,
-				14AD9C2A1C0D31F300D175B8 /* ViewController.m */,
-				14AD9C2C1C0D31F300D175B8 /* Main.storyboard */,
-				14AD9C2F1C0D31F300D175B8 /* Assets.xcassets */,
-				14AD9C311C0D31F300D175B8 /* LaunchScreen.storyboard */,
-				14AD9C341C0D31F300D175B8 /* Info.plist */,
+				145DC1401C5871E900CE2B21 /* UI */,
+				145DC13E1C58708300CE2B21 /* ViewControllers */,
+				145DC13D1C58707B00CE2B21 /* Model */,
 				14AD9C231C0D31F300D175B8 /* Supporting Files */,
 			);
 			path = "Student Portal";
@@ -75,8 +225,39 @@
 			isa = PBXGroup;
 			children = (
 				14AD9C241C0D31F300D175B8 /* main.m */,
+				14AD9C261C0D31F300D175B8 /* AppDelegate.h */,
+				14AD9C271C0D31F300D175B8 /* AppDelegate.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		14AD9C3A1C0D324900D175B8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				14AD9C511C0D32C400D175B8 /* libsqlite3.tbd */,
+				14AD9C4F1C0D32BC00D175B8 /* libz.tbd */,
+				14AD9C4D1C0D32B100D175B8 /* AudioToolbox.framework */,
+				14AD9C4B1C0D32AB00D175B8 /* CFNetwork.framework */,
+				14AD9C491C0D32A500D175B8 /* CoreGraphics.framework */,
+				14AD9C471C0D329E00D175B8 /* CoreLocation.framework */,
+				14AD9C451C0D329400D175B8 /* QuartzCore.framework */,
+				14AD9C431C0D328B00D175B8 /* Security.framework */,
+				14AD9C411C0D328300D175B8 /* StoreKit.framework */,
+				14AD9C3F1C0D327A00D175B8 /* SystemConfiguration.framework */,
+				14AD9C3B1C0D325300D175B8 /* Bolts.framework */,
+				14AD9C3C1C0D325300D175B8 /* Parse.framework */,
+				850EB069D9B0C04682EC66F3 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E9FDC584C56314C7DF2670B4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				815E6C70EC2F8588B976409A /* Pods.debug.xcconfig */,
+				40C9A25FD059D7421A0E2FD0 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -86,9 +267,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 14AD9C371C0D31F300D175B8 /* Build configuration list for PBXNativeTarget "Student Portal" */;
 			buildPhases = (
+				6182DA33A0698CF422CC938F /* Check Pods Manifest.lock */,
 				14AD9C1C1C0D31F300D175B8 /* Sources */,
 				14AD9C1D1C0D31F300D175B8 /* Frameworks */,
 				14AD9C1E1C0D31F300D175B8 /* Resources */,
+				36E4F8CF56880659BD263ACB /* Embed Pods Frameworks */,
+				FD74DB1C0F8A6496FFB9E662 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -145,14 +329,71 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		36E4F8CF56880659BD263ACB /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6182DA33A0698CF422CC938F /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FD74DB1C0F8A6496FFB9E662 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		14AD9C1C1C0D31F300D175B8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				14AD9C551C0D471400D175B8 /* SPApiClient.m in Sources */,
 				14AD9C2B1C0D31F300D175B8 /* ViewController.m in Sources */,
 				14AD9C281C0D31F300D175B8 /* AppDelegate.m in Sources */,
+				14493BBF1C112F5B002AB19E /* SPScheduleTableViewController.m in Sources */,
+				145DC1321C568EB100CE2B21 /* SPNoticeboardTableViewController.m in Sources */,
+				145DC1351C5698F000CE2B21 /* SPNoticeboardTableViewCell.m in Sources */,
 				14AD9C251C0D31F300D175B8 /* main.m in Sources */,
+				14493C1C1C34DCA0002AB19E /* SPDocumentOptionViewController.m in Sources */,
+				14389BE71C6665FB00B50F59 /* SPNoticeDetailViewController.m in Sources */,
+				148582EF1C3AF3410056C1F2 /* SPDocumentViewController.m in Sources */,
+				145DC1381C57D71000CE2B21 /* SPProfileViewController.m in Sources */,
+				14493BC51C12E315002AB19E /* SPScheduleTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,23 +501,37 @@
 		};
 		14AD9C381C0D31F300D175B8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 815E6C70EC2F8588B976409A /* Pods.debug.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = "Student Portal/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.HHZ.Student-Portal";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		14AD9C391C0D31F300D175B8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 40C9A25FD059D7421A0E2FD0 /* Pods.release.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = "Student Portal/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.HHZ.Student-Portal";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -299,6 +554,7 @@
 				14AD9C391C0D31F300D175B8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
